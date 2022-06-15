@@ -1,3 +1,6 @@
+
+MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
+MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
 def get_pair_number_from_color(major_color, minor_color):
   try:
     major_index = MAJOR_COLORS.index(major_color)
